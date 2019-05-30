@@ -7,6 +7,6 @@ time.sleep(2)
 
 valor = numero
 valor = bin(valor)
-print((" Seu Numero Em Binario = "),valor)
+print((" Seu Numero Em Binario = "),valor[2:])
 
 time.sleep(5)
