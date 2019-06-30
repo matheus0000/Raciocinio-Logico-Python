@@ -5,15 +5,15 @@ C = int(input('Terceiro Numero = '))
 if A < B and A < C:
     menor = A
 if B < C and B < A:
-	maior = B
+	menor = B
 if C < A and C < B:	
     menor = C
 # 'Procurando quem e maior'	
 if A > B and A > C:
     maior = A
 if B > C and B > A:
-	menor = B
+	maior = B
 if C > A and C > B:	
     maior = C
-print('O menor valor digitado foi {}'.format(menor))
-print('O maior valor digitado foi {}'.format(maior))	
+print('O Menor valor digitado foi {}'.format(menor))
+print('O Maior valor digitado foi {}'.format(maior))	
